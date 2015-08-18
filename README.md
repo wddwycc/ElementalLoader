@@ -4,6 +4,10 @@ A Super Elegent Loader for IOS
 
 # How to use it
 
+First add `ElementalLoader.swift` into your project
+
+---
+
 To show it in View Controller
 ```swift
 ElementalLoader.showInViewController(self, withStyle: ElementalColorStyle.cold)
