@@ -12,3 +12,4 @@ To hide it
 ```swift
 ElementalLoader.hide()
 ```
+Inspired by : https://dribbble.com/shots/2050032-Elemental-Loader
