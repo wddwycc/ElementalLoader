@@ -13,6 +13,8 @@
 		849F25D21B7C432100639BB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F25D11B7C432100639BB0 /* Images.xcassets */; };
 		849F25D51B7C432100639BB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849F25D31B7C432100639BB0 /* LaunchScreen.xib */; };
 		849F25E11B7C432100639BB0 /* ElementalLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F25E01B7C432100639BB0 /* ElementalLoaderTests.swift */; };
+		849F25EB1B7C434900639BB0 /* ElementalLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F25EA1B7C434900639BB0 /* ElementalLoader.swift */; };
+		849F25ED1B7C97FE00639BB0 /* ttt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849F25EC1B7C97FE00639BB0 /* ttt.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		849F25DA1B7C432100639BB0 /* ElementalLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementalLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F25DF1B7C432100639BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849F25E01B7C432100639BB0 /* ElementalLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementalLoaderTests.swift; sourceTree = "<group>"; };
+		849F25EA1B7C434900639BB0 /* ElementalLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementalLoader.swift; sourceTree = "<group>"; };
+		849F25EC1B7C97FE00639BB0 /* ttt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ttt.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 			children = (
 				849F25CA1B7C432100639BB0 /* AppDelegate.swift */,
 				849F25CC1B7C432100639BB0 /* ViewController.swift */,
+				849F25EA1B7C434900639BB0 /* ElementalLoader.swift */,
 				849F25CE1B7C432100639BB0 /* Main.storyboard */,
 				849F25D11B7C432100639BB0 /* Images.xcassets */,
 				849F25D31B7C432100639BB0 /* LaunchScreen.xib */,
+				849F25EC1B7C97FE00639BB0 /* ttt.jpg */,
 				849F25C81B7C432100639BB0 /* Supporting Files */,
 			);
 			path = ElementalLoader;
@@ -194,6 +200,7 @@
 			files = (
 				849F25D01B7C432100639BB0 /* Main.storyboard in Resources */,
 				849F25D51B7C432100639BB0 /* LaunchScreen.xib in Resources */,
+				849F25ED1B7C97FE00639BB0 /* ttt.jpg in Resources */,
 				849F25D21B7C432100639BB0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 			files = (
 				849F25CD1B7C432100639BB0 /* ViewController.swift in Sources */,
 				849F25CB1B7C432100639BB0 /* AppDelegate.swift in Sources */,
+				849F25EB1B7C434900639BB0 /* ElementalLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
